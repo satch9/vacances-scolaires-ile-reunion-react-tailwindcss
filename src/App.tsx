@@ -1,11 +1,11 @@
 import './App.css'
+import Container from './components/Container'
 
 function App() {
   return (
-    <>
-      <h1 className='text-3xl font-bold underline'>hello world</h1>
-      <p>test</p>
-    </>
+    <div className="h-screen bg-gray-100">
+      <Container />
+    </div>
   )
 }
 
